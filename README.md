@@ -1,2 +1,0 @@
-# tapubrat
- project purpose
