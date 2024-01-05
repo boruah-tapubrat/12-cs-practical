@@ -1,5 +1,30 @@
 
-print("hello world")
+
+2. Write a python program to take numbers from the user and check if it is prime or not.
+3. Write a program to calculate the nth term of Fibonacci series.
+
+
+ 
+7. Write a python program to search any word in given string/sentence. User provides 
+input string/sentence and the word to search.
+8. Write a python program to read and display ϐile content line by line with each word 
+separated by ‘*’
+9. Write a python program to read the content of the ϐile and display total numbers of 
+upper case and lower case characters.
+10.Write a python program to create binary ϐile to store Employee Name, Employee code 
+and take input from user to display name of the employee if employee code is found in 
+the ϐile otherwise display “Employee not found”
+11.Write a python program to create a binary ϐile to store RollNo, Name and marks of the 
+student. Take input from the user to update the marks of the entered Rollno.
+12.Write a python program to read the content of the ϐile line by line and write it to the 
+another ϐile except for the lines that contain ‘o’ letter in it.
+13.Create a binary ϐile “Employee.dat” with emp id, name and salary. Write a function 
+Update_Sal(empid), receive an employee id and update the salary.
+
+
+1. Write a python program using functions to take input from the user and calculate the 
+factorial of the number.
+Ans.
 def factorial(n):
     if n==0 or n==1:
         return 1
@@ -19,6 +44,8 @@ except ValueError:
 
 
 
+4. Write a random number generator that generates random numbers between 1 and 6.
+Ans.
 import random
 def random_no():
      return print(random.randint(1,6))
@@ -29,6 +56,9 @@ while True:
 
 
 
+5. Write a Python program to demonstrate the concept of variable length argument to 
+calculate the product and power of the ϐirst 10 numbers.
+Ans.
  def pap(*n):
      product = 1
      power = 1
@@ -41,7 +71,10 @@ while True:
 
 
 
-
+6. Write a program to accept the number of days and display appropriate weeks in an 
+integer. Display an appropriate error message if input is not an integer. Handle the 
+errors including the ϐinally clause.
+Ans.
 def days_to_weeks(days):
     try:
         days = int(days)
@@ -55,3 +88,5 @@ def days_to_weeks(days):
 days = input("Enter the number of days: ")
 
 days_to_weeks(days)
+
+
